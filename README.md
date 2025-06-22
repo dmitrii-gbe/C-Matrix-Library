@@ -22,12 +22,6 @@
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## Functions Overview
 
 Below is a summary of the main functions in the library:
@@ -105,12 +99,20 @@ int main() {
 
     return 0;
 }
-
-#Build and test
+```
+---
+# Build and test
 - make all      # build library, run tests, generate coverage report
 - make test     # run tests only
 - make clean    # clean build artifacts
 - make clang-format  # format source files
-
-#Contact
+- make gcov-report     # run tests and see code coverage
+---
+# Contact
 For questions or suggestions, feel free to open an issue or contact the maintainer.
+---
+# License
+
+This project is licensed under the MIT License.
+
+---
